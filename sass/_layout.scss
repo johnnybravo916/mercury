@@ -1,0 +1,67 @@
+header {
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    position: absolute;
+    ul {
+        margin: 0 0 0 20px;
+        padding: 0;
+        li {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+.masthead {
+    height:80vh;
+    background: var(--gray);
+    position: relative;
+    margin-bottom:15vh;
+    h1 {
+        color: var(--white);
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+        padding: 200px 0;
+    }
+    img {
+        width: 200px;
+        height: auto;
+        position: absolute;
+        z-index: 1;
+        margin:0 auto;
+        display: block;
+        left:0;
+        right:0;
+ 
+        bottom:-50px;
+    }
+    &--mainImg {
+        background: url(https://images.goodsmile.info/cgm/images/product/20190809/8675/62906/large/ff3ed51572fda36170357b0ea2c04a88.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        height: 90vh;
+        width: 50vw;
+    }
+}
+
+.content{
+  margin:0 auto;
+  max-width:80%;
+}
